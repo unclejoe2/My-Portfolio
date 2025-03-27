@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Developer & Graphic Designer</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script defer src="/js/script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#sample-work">Sample Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="intro">
+          <div class="box">
+            <h1 style="padding: 80px;">Welcome to My Portfolio</h1>
+            <h2>Front-End Developer.</h2>
+            <h2>Graphic Designer.</h2>
+          </div>
+          <div class="box" style="padding-top: 80px;">
+            <img src="./images/IMG-20240401-WA0004-Photoroom.png" alt="" height="500px" style="background-color: aqua; border-radius: 50%; ">
+            <a href="#about" class="down-arrow">&#8595;</a>
+        </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="intro">
+        <div class="box">
+        <h2>About Me</h2>
+        <p class="p2">Hey there! I’m Jeff, a Graphic Designer and Front-End Developer with a passion for
+            creating
+            beautiful
+            and functional digital experiences. I love bringing ideas to life—whether it’s through
+            eye-catching
+            designs or smooth, responsive websites.
+
+            With a background in software development and web design, I’ve worked with HTML, CSS, and modern
+            front-end tools to build user-friendly interfaces that not only look great but feel great to
+            use.
+            Design isn’t just about aesthetics for me—it’s about telling a story, creating an experience,
+            and
+            making an impact.
+
+            When I’m not busy coding or designing, you’ll probably find me exploring new creative trends,
+            fine-tuning my skills, or getting inspired by the world around me. If you’re looking for someone
+            to
+            craft a stunning brand, website, or digital experience, let’s chat—I’d love to bring your vision
+            to
+            life!
+        </p>
+    </div>
+    <div class="box">
+        <div style="text-align: start;">
+            <p>FIGMA</p>
+            <div class="p1" style="width: 600px;"></div>
+            <p>HTML</p>
+            <div class="p1" style="width: 550px;"></div>
+            <p>CSS</p>
+            <div class="p1" style="width: 500px;"></div>
+            <p>ADOBE ILLUSTRATOR</p>
+            <div class="p1" style="width: 450px;"></div>
+            <p>CANVA</p>
+            <div class="p1 "style="width: 450px;"></div>
+            <p>ADOBE PHOTOSHOP</p>
+            <div class="p1" style="width: 400px;"></div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <section id="sample-work">
+        <h2 style="padding-top: 170px;">SAMPLE WORK</h2>
+        <div class="work">
+            <div class="treat">
+                <img src="./images/burger king.png" alt="" class="poster">
+                <p class="img-text">my design on burger king </p>
+            </div>
+            <div class="treat" >
+                <img src="./images/amazing.jpg" alt="my design on Amazing restaurant poster" class="poster">
+                <p class="img-text">my design on Amazing restaurant poster </p>
+            </div>
+            <div class="treat">
+                <img src="./images/fanta.png" alt="" class="poster">
+                <p class="img-text">my design on fanta craetion </p>
+            </div>
+            <div class="treat" >
+                <img src="./images/ps5.png" alt="" class="poster" >
+                <p class="img-text">my design on social media post </p>
+            </div>
+            <div class="treat" >
+                <img src="./images/falcon sample.jpg" alt="" class="poster" style="padding-top: 50px;">
+                <p class="img-text"> A sample design for falcon poster </p>
+            </div>
+            <div class="treat">
+                <img src="./images/f1.jpg" alt="" class="posters" style="padding-top: 170px;" >
+                <p class="img-text">A creative design on F1 driver </p>
+            </div>
+            <div class="treat">
+                <img src="./images/guzmo.png" alt="" class="poster" style="padding-top: 50px;">
+                <p class="img-text">My design on a Guzmo restaurant poster </p>
+            </div>
+            <div class="treat">
+                <video src="./images/farmers choice.mp4" class="poster" controls style="padding-top: 50px;"></video>
+                <p class="img-text">My creation of a farmers choice social media ad </p>
+            </div>
+        </div>
+       
+    </section>
+
+    <section id="contact" style="border-bottom: 3PX solid #FFD700;">
+        <div class="contact-container">
+            <h2>Reach me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter your email address" required>
+                <textarea placeholder="Enter your message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+            <div class="contact-details">
+                <h3>My Contacts</h3>
+                <p>Email: jeffonyango4876@gmail.com</p>
+                <p>Phone: 0757608236</p>
+                <p>Address: Nairobi, Kenya</p>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("SKw8zLe0WRgygBry6");
+        })();
+    </script>
+</body>
+
+</html>
